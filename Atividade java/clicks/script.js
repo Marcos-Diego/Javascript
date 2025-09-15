@@ -5,7 +5,7 @@ const botaoD = document.getElementById("decrease");
 botaoD.addEventListener("click", clickD);
 
 let clicks = document.getElementById("value").innerText;
-clicks = parseFloat(clicks);
+clicks = Number(clicks);
 
 function clickI () {
     clicks = clicks + 1;
